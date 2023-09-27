@@ -6,3 +6,33 @@
 6. Position the two boxes next to each other.
 7. "Hide" box number 1 and see how that changes the page.
 8. Add a hover effect to the the LAST div element. Use pseudo-classes for that.
+
+
+
+
+
+
+
+1. Build a nice box (div) with some content (e.g. "I'm a box!"), padding, a border (style it as you want) and some margin.
+done
+
+2. If you didn't do it already: Set different padding and margin for the four different sides of the box.
+done
+
+3. Add the same box below the first box and note if you can identify any strange behavior.
+ done / margin-collapsing
+
+4. Give the first box a height of 100% of the window height.
+done / not really sure what this is asking for.  Div is a BLOCK ELEMENT.  To take the full page height need to use vh (havent gone over this yet, or use pixels for the height maybe)
+
+5. Set the first box back to a more reasonable height of 300px and set its width to 50%.
+done
+
+6. Position the two boxes next to each other.
+done
+
+7. "Hide" box number 1 and see how that changes the page.
+done (commented out the code though bc I want to see both boxes right now)
+
+8. Add a hover effect to the the LAST div element. Use pseudo-classes for that.
+done
