@@ -12,5 +12,6 @@
  * DISPLAY: INLINE-BLOCK
  * Pseudo Classes
  * Pseudo Elements
+ * BEM naming convention
  *
  */
