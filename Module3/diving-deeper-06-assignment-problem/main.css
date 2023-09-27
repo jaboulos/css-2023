@@ -1,7 +1,7 @@
 /* container of the div, div is box-element, so it will only increase to the height of its container.
 the elements acting as the container here are html and body tags
 */
-html body {
+html, body {
   height: 100%;
 }
 
