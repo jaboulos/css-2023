@@ -36,3 +36,9 @@ done (commented out the code though bc I want to see both boxes right now)
 
 8. Add a hover effect to the the LAST div element. Use pseudo-classes for that.
 done
+
+
+Room for improvement:
+1) should have used an ID instead of additional class (.box-one)
+2) should have remembered that surrounding elements of box-elements act as its container
+    to make the height of this div 100%, needed to make the HTML and BODY elements height 100% first.
