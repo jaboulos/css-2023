@@ -58,12 +58,28 @@ body {
 
 .main-nav__item {
   display: inline-block;
+  margin: 0 10px;
 }
 
-.main-nav__item > a {
+.main-nav__item a {
   text-decoration: none;
+  color: #0e4f1f;
 }
 
-/* h1 {
-  font-family: sans-serif;
+/* .main-nav__item a::after {
+  content: "pseudo class selector AFTER example";
+  color: red;
+} */
+
+.main-nav__item a:hover {
+  color: white;
+}
+
+.main-nav__item a:active {
+  color: rgb(215, 223, 222);
+}
+
+/* p::first-letter {
+  color: red;
+  font-size: 20px;
 } */
