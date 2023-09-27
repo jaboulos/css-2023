@@ -1,16 +1,13 @@
-* {
-  /* VERY IMPORTANT often used as a default styling for all elements */
-  box-sizing: border-box;
-}
-
-body {
-  /* i forget why margin 0 is often set here :( */
-  margin: 0;
+/* container of the div, div is box-element, so it will only increase to the height of its container.
+the elements acting as the container here are html and body tags
+*/
+html body {
+  height: 100%;
 }
 
 .box {
-  padding: 5px;
-  margin: 10px;
+  padding: 5px 10px 15px 20px;
+  margin: 10 20px 30px 40px;
   display: inline-block;
   border: solid 5px violet;
 }
@@ -19,6 +16,8 @@ body {
   height: 300px;
   width: 50%;
   /* display: none; */
+  /* review box-sizing again, already forgot */
+  box-sizing: border-box;
 }
 
 div:last-of-type:hover {
