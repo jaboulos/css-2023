@@ -13,5 +13,5 @@
  * Pseudo Classes
  * Pseudo Elements
  * BEM naming convention
- *
+ * inherit word (forces inheritance instead of browser defaults)
  */
